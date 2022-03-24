@@ -516,9 +516,13 @@ button {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 0;
-    z-index: 500;
+    opacity: 1;
+    z-index: 500; 
     transition: all .3s ease-in-out;
+}
+.scrollToTop span {
+    margin-top: 6px;
+    color: white;
 }
 
 .scrollToTop span {
@@ -529,6 +533,7 @@ button {
     font-size: 14px;
     opacity: 1;
 }
+
 
 a[data-lightbox] {
     position: relative;
